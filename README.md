@@ -12,7 +12,7 @@ This repo contains the code of our AAAI24 paper *Deep Incomplete Multi-View Lear
 ## Content
 
 - `classification.py`: Main function to run incomplete multi-view semi-supervised classification.
-- `config/config_with_gcn_completion.py`: contains the hyper-parameters (e.g., $\alpha$, $\lambda_1$) and the training options (e.g., structure of network, learning rate).
+- `config/config_with_gcn_completion.py`: contains the hyper-parameters (e.g., $\alpha$ and $\lambda_1$) and the training options (e.g., structure of network and learning rate).
 - `models/model.py`: Class of the DIMvLN can tackle the dataset with 2 to 6 views.
 - `models/model_coach.py`: Class of the pipeline to run the training process.
 

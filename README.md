@@ -9,6 +9,15 @@ This repo contains the code of our AAAI24 paper *Deep Incomplete Multi-View Lear
 - torch==1.12.0+cu116
 - torch-cluster==1.6.0+pt112cu116
 
+To install the package in an existing environment, run
+```
+pip install -r requirements.txt
+```
+or to create a conda environment for running this repo, run
+```
+conda env create -f environment.yml
+```
+
 ## Content
 
 - `classification.py`: Main function to run incomplete multi-view semi-supervised classification.

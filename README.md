@@ -15,7 +15,7 @@ pip install -r requirements.txt
 ```
 or to create a conda environment for running this repo, run
 ```
-conda env create -f environment.yml
+conda env create -f environment.yaml
 ```
 
 ## Content

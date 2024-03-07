@@ -285,7 +285,7 @@ class Loss(nn.Module):
 			loss_ccl = self.lamb1 * self.category_contrastive_loss(concat_z, gt_label, label_mask, classes, device)
 			loss_cel = self.lamb2 * self.classification_loss(output_dic['prob'], gt_label, label_mask, device)
 			
-			loss = loss_cel + loss_icl + loss_ccl + loss_cel
+			loss = loss_rc + loss_icl + loss_ccl + loss_cel
 
 			if self.method['Completion'] in ['no_complete', 'average_complete', 'random_complete']:
 				loss += self.lamb1 * self.dual_prediction_loss(z_dic, z_hat_dic)
@@ -310,7 +310,7 @@ class Loss(nn.Module):
 			loss_ccl = self.lamb1 * self.category_contrastive_loss(concat_z, gt_label, label_mask, classes, device)
 			loss_cel = self.lamb2 * self.classification_loss(output_dic['prob'], gt_label, label_mask, device)
 
-			loss = loss_cel + loss_icl + loss_ccl + loss_cel
+			loss = loss_rc + loss_icl + loss_ccl + loss_cel
 
 			return loss, {'L_rc': loss_rc.item(), 'L_icl': loss_icl.item(), 'L_ccl': loss_ccl.item(), 'L_cel': loss_cel.item()}
 		

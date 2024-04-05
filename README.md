@@ -61,3 +61,18 @@ Accuracy score:  0.9205020920502092
 Macro-Precision score:  0.8545993164857755
 Macro-F1 score:  0.8227701485690322
 ``````
+
+## Reference
+
+If you find our work useful in your research, please consider citing:
+``````
+@inproceedings{jiang2024deep,
+  title={Deep Incomplete Multi-View Learning Network with Insufficient Label Information},
+  author={Jiang, Zhangqi and Luo, Tingjin and Liang, Xinyan},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={38},
+  number={11},
+  pages={12919--12927},
+  year={2024}
+}
+``````

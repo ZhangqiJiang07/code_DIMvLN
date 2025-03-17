@@ -1,5 +1,5 @@
 # Deep Incomplete Multi-View Learning Network with Insufficient Label Information
-This repo contains the code of our AAAI24 paper *Deep Incomplete Multi-View Learning Network with Insufficient Label Information*. To tackle the double missing of features and labels problem, we propose a novel Deep Incomplete Multi-view Learning Network (DIMvLN) by incorporating graph networks and semi-supervised learning in this paper.
+This repo contains the code of our AAAI'24 paper *Deep Incomplete Multi-View Learning Network with Insufficient Label Information*. To tackle the double missing of features and labels problem, we propose a novel Deep Incomplete Multi-view Learning Network (DIMvLN) by incorporating graph networks and semi-supervised learning in this paper.
 
 ![](./figs/framework_arrow.png)
 
